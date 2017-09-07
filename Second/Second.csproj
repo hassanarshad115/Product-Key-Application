@@ -31,6 +31,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Dooffy-Characters-H1.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -92,6 +95,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\game.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Dooffy-Characters-H1.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
